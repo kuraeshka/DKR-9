@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1482330472"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq &quot;-FiC:\Users\kurae\OneDrive\Рабочий стол\Учёба\Разработка кода информационных систем\ДКР 9\9 дкр\lib\x86_64-win64&quot; -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\freetype\lib\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\kurae\OneDrive\Рабочий стол\Учёба\Разработка кода информационных систем\ДКР 9\9 дкр\&quot; &quot;-FUC:\Users\kurae\OneDrive\Рабочий стол\Учёба\Разработка кода информационных систем\ДКР 9\9 дкр\lib\x86_64-win64\&quot; &quot;-FEC:\Users\kurae\OneDrive\Рабочий стол\Учёба\Разработка кода информационных систем\ДКР 9\9 дкр\&quot; &quot;-oC:\Users\kurae\OneDrive\Рабочий стол\Учёба\Разработка кода информационных систем\ДКР 9\9 дкр\telephones.exe&quot; -dLCL -dLCLwin32 telephones.lpr"/>
+</CONFIG>

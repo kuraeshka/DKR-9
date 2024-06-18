@@ -1,0 +1,71 @@
+object fMain: TfMain
+  Left = 280
+  Height = 400
+  Top = 103
+  Width = 1000
+  BorderStyle = bsSingle
+  Caption = 'Справочник клавиатур'
+  ClientHeight = 400
+  ClientWidth = 1000
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '3.2.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 27
+    Top = 0
+    Width = 1000
+    Align = alTop
+    ClientHeight = 27
+    ClientWidth = 1000
+    TabOrder = 0
+    object bEdit: TButton
+      Left = 168
+      Height = 25
+      Top = 2
+      Width = 150
+      Caption = 'Редактировать клавиатуру'
+      TabOrder = 0
+      OnClick = bEditClick
+    end
+    object bDel: TButton
+      Tag = 2
+      Left = 328
+      Height = 25
+      Top = 2
+      Width = 150
+      Caption = 'Удалить клавиаутуру'
+      TabOrder = 1
+      OnClick = bDelClick
+    end
+  end
+  object SG: TStringGrid
+    Left = 0
+    Height = 373
+    Top = 27
+    Width = 1000
+    Align = alClient
+    FixedCols = 0
+    RowCount = 1
+    TabOrder = 1
+  end
+  object bAdd: TButton
+    Left = 8
+    Height = 25
+    Top = 2
+    Width = 150
+    Caption = 'Добавить клавиатуру'
+    TabOrder = 2
+    OnClick = bAddClick
+  end
+  object bSort: TButton
+    Left = 488
+    Height = 25
+    Top = 2
+    Width = 150
+    Caption = 'Сортировка клавиатур'
+    TabOrder = 3
+    OnClick = bSortClick
+  end
+end
